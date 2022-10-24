@@ -1,19 +1,26 @@
-.container{
-    display: flex;
-    flex-direction: column;
+body{
     align-items: center;
     justify-content: center;
-    background-color: aqua;
-    width: 25em;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+button{
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    box-shadow: 10px 5px 5px rgb(64, 65, 65);
+
+}
+
+.geral{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15em;
+    background-color: darkcyan;
     padding: 3em;
+    box-shadow: 10px 5px 5px rgb(2, 75, 75);
 }
-
-#entrada1{
-    margin: 1em;
-}
-
-#operacao{
-    margin: 1em;
-}
-
-

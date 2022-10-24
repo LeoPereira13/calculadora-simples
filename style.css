@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 25em;
+    padding: 3em;
+}
+
+#entrada1{
+    margin: 1em;
+}
+
+#operacao{
+    margin: 1em;
+}
+
+
